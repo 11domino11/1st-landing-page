@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #1f2937;
+    
+}
+header .logo{
+    display: flex;
+    color: #f9faf8;
+    padding: 16px;
+    margin-left: 300px;
+    font-weight: bold;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    color: #e5e7eb;
+}
+li{
+    margin-right: 40px;
+}
+.top-main{
+    background-color: #1f2937;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.top-words{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 150px;
+    margin-left: 100px;
+}
+.top-main h2{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.top-main button{
+    width: 75px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+}
+.top-main p{
+    color: #e5e7eb;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.image{
+    width: 500px;
+    height: 250px;
+    background-color: grey;
+    align-self: center;
+    justify-self: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.main h3{
+    align-self: center;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.main img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 30px;
+}
+.main p{
+    width: 90px;
+    height: 30px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.para{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quote{
+    background-color: #e5e7eb;
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.quote p{
+    padding: 30px;
+    width: 700px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    align-self: center;
+}
+.quote div{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 300px;
+}
+.cta{
+    margin: 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    display: flex;
+    flex: auto;
+    color: white;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.cta h4{
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.cta-words{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.cta p{
+    margin: 2px;
+}
+.cta button{
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+}
